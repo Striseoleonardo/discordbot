@@ -16,6 +16,6 @@ bot.on("message", (message) =>{
         var ora = data.getHours();
         var minuto = data.getMinutes();
 
-        message.channel.send(":alarm_clock: Sono le " + ora + ":" + minuto + " :alarm_clock:");
+        message.channel.send(":alarm_clock: Sono le " + ora + " : " + minuto + " :alarm_clock:");
     }
 });
